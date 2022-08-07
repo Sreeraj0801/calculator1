@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="icon" href="./calculator_PNG102230.png" type="image/icon type">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="boc">
+            <div id="displayScreen">
+                <input type="text" id="outscreen">
+            </div>
+            <div class="buttons">
+                <div class="row">
+                    <button class="button-digits" onclick="clearscreen()">c</button> 
+                </div>
+                <div class="row">
+                    <button class="button-digits" onclick="btnclick(7)">7</button>
+                    <button class="button-digits" onclick="btnclick(8)">8</button>
+                    <button class="button-digits" onclick="btnclick(9)">9</button>
+                    <button class="button-digits" onclick="btnclick('/')">/</button>
+                </div>
+                <div class="row">
+                    <button class="button-digits" onclick="btnclick(4)">4</button>
+                    <button class="button-digits" onclick="btnclick(5)">5</button>
+                    <button class="button-digits" onclick="btnclick(6)">6</button>
+                    <button class="button-digits" onclick="btnclick('*')">x</button>
+                </div>
+                <div class="row">
+                    <button class="button-digits" onclick="btnclick(1)">1</button>
+                    <button class="button-digits" onclick="btnclick(2)">2</button>
+                    <button class="button-digits" onclick="btnclick(3)">3</button>
+                    <button class="button-digits" onclick="btnclick('-')">-</button>
+                </div>
+                <div class="row">
+                    <button class="button-digits" onclick="btnclick(3)">0</button>
+                    <button class="button-digits" onclick="btnclick('.')">.</button>
+                    <button class="button-digits" onclick="btnclick('+')">+</button>
+                    <button class="button-digits" onclick="equalClick()">=</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

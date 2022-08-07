@@ -1,0 +1,48 @@
+.boc
+{
+    width: 400px;
+    height: 500px;
+    margin-left: 15%;
+    margin-top: 10%;
+    background: black;
+    border-radius: 12px;
+    
+}
+#outscreen
+{
+    width: 90%;
+    height: 60px;
+    margin-top: 50px;
+    margin-left: 15px;
+    border-radius: 13px;
+    border: none;
+    pointer-events: none;
+    
+}
+.button-digits
+{
+    height: 50px;
+    width: 80px;
+    margin-left: 12px;
+    margin-top: 12px;
+    font-size: 30px;
+    font-weight: 760;
+    border-radius: 12px;
+    color: black;
+    background: slategrey;
+    cursor: pointer;
+}
+.button-digits:hover
+{
+    background: grey;
+    border: 1px solid #fff;
+
+}
+.buttons{
+    margin-top: 40px;
+    
+}
+#outscreen
+{
+    font-size: 28px;
+}
